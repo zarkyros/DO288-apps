@@ -25,7 +25,7 @@ pipeline {
 
 	stage('stage 2') {
 	   steps {
-		sh echo 'hello from step 2!'		
+		sh 'echo hello from step 2!'		
 	   }
 	}	
 
